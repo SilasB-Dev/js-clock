@@ -2,10 +2,10 @@
 
 
 .clock {
-    background-color: black;
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
+    background-color: black;    
     width: 500px;
     height: 500px;
     border-radius: 50%;
@@ -35,49 +35,49 @@
 }
 
 .marking-one {
-    top: 25px;
-    left:245px;
+    top: 33px;
+    left:253px;
 }
 .marking-three {
-    left:245px;
-    top: 450px;
+    left:253px;
+    top: 458px;
 }
 
 .marking-two {
     transform: rotate(90deg);
-    top: 240px;
-    left:460px;
+    top: 248px;
+    left:468px;
 }
 .marking-four {
     transform: rotate(90deg);
-    top: 240px;
-    left:25px;
+    top: 248px;
+    left:33px;
 }
 
 .hand {
     background-color: black;
     position: fixed;
-    top: 250px;
-    left: 250px;
+    top: 258px;
+    left: 258px;
     transform-origin: top center;
     border-radius: 10px;
 }
 
 .hour-hand {
-    left: 240px;
+    left: 248px;
     width: 20px;
     height: 100px;
 }
 
 .min-hand {
-    left: 245px;
+    left: 253px;
     width: 10px;
     height: 180px;
 }
 
 .second-hand {
     background-color: red;
-    left: 247.5px;
+    left: 255.5px;
     width: 5px;
     height: 180px;
 }
@@ -88,6 +88,6 @@
     height: 30px;
     border-radius: 50%;
     position: fixed;
-    top: 235px;
-    left: 235px;
+    top: 243px;
+    left: 243px;
 }
